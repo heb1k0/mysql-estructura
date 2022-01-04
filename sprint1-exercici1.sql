@@ -7,6 +7,14 @@
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.12
 
+USE optica;
+
+DROP TABLE IF EXISTS proveidors,
+clients,
+empleats,
+proveidor,
+ulleres;
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
