@@ -9,9 +9,9 @@
 CREATE DATABASE optica;
 USE optica;
 
-DROP TABLE IF EXISTS proveidor,
-clients,
+DROP TABLE IF EXISTS clients,
 empleats,
+proveidor,
 ulleres;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
