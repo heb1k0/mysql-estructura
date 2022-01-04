@@ -6,13 +6,12 @@
 -- Tiempo de generación: 02-11-2021 a las 11:43:23
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.12
-
+CREATE DATABASE optica;
 USE optica;
 
-DROP TABLE IF EXISTS proveidors,
+DROP TABLE IF EXISTS proveidor,
 clients,
 empleats,
-proveidor,
 ulleres;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
