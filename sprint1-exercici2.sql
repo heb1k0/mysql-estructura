@@ -7,6 +7,22 @@
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 8.0.12
 
+CREATE DATABASE pizzeria;
+USE pizzeria;
+
+DROP TABLE IF EXISTS botiga,
+categories_pizza,
+clients,
+comandes,
+empletats,
+localitats,
+posicions,
+productes,
+productes_comanda,
+provincias,
+tipus_producte;
+
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
